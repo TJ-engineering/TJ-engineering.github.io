@@ -1,0 +1,285 @@
+{
+  "site": {
+    "name": "TJ Engineering",
+    "tagline": "Ideas into working projects.",
+    "description": "Engineering Open-Source software at the intersection of advanced technology and academic scholarship, specializing in textual corpus research and biblical studies.",
+    "githubUrl": "https://github.com/TJ-engineering"
+  },
+  "projects": [
+    {
+      "id": "Doc4TF",
+      "title": "Doc4TF",
+      "summary": "A Jupyter Notebook tool that generates linked Text-Fabric feature documentation from an existing dataset, with Markdown and HTML output.",
+      "category": "Research tools",
+      "status": "active",
+      "tags": [
+        "Text-Fabric",
+        "Python",
+        "Jupyter",
+        "Documentation"
+      ],
+      "featured": true,
+      "url": "https://tonyjurg.github.io/Doc4TF/",
+      "repository": "https://github.com/tonyjurg/Doc4TF",
+      "logo": {
+        "src": "https://raw.githubusercontent.com/tonyjurg/Doc4TF/main/images/DOC4TF.png",
+        "alt": "Doc4TF logo"
+      },
+      "resources": [
+        {
+          "title": "Doc4TF project description",
+          "url": "https://github.com/tonyjurg/Doc4TF/blob/main/Doc4TF_Automatic_Generation_of_Text_Fabric_Documentation.pdf",
+          "type": "PDF"
+        }
+      ]
+    },
+    {
+      "id": "N1904addons",
+      "title": "N1904addons",
+      "summary": "Additional linguistic features for the N1904 Greek New Testament Text-Fabric dataset, supporting computational analysis of biblical Greek.",
+      "category": "Datasets",
+      "status": "active",
+      "tags": [
+        "Text-Fabric",
+        "Ancient Greek",
+        "Morphology",
+        "New Testament"
+      ],
+      "featured": false,
+      "url": "https://tonyjurg.github.io/N1904addons/",
+      "repository": "https://github.com/tonyjurg/N1904addons",
+      "logo": {
+        "src": "",
+        "alt": ""
+      },
+      "resources": [
+        {
+          "title": "Visualising Overlooked Morphosyntactic Alternatives",
+          "url": "https://www.academia.edu/143877790/Visualising_Overlooked_Morphosyntactic_Alternatives_A_Morpheus_Based_Extension_for_the_Nestle_1904_Text_Fabric_Dataset",
+          "type": "Thesis · Academia"
+        },
+        {
+          "title": "Dataset citation",
+          "url": "https://doi.org/10.5281/zenodo.17091708",
+          "type": "DOI"
+        }
+      ]
+    },
+    {
+      "id": "morphkit",
+      "title": "Morphkit",
+      "summary": "A Python research toolkit connecting Morpheus morphological analysis with the conventions used in the N1904 Text-Fabric workflow, including tag comparison.",
+      "category": "Research tools",
+      "status": "active",
+      "tags": [
+        "Python",
+        "Ancient Greek",
+        "Morpheus",
+        "Morphology"
+      ],
+      "featured": true,
+      "url": "https://tonyjurg.github.io/morphkit/stable/",
+      "repository": "https://github.com/tonyjurg/morphkit",
+      "logo": {
+        "src": "https://raw.githubusercontent.com/tonyjurg/morphkit/main/docs/images/morphkit.png",
+        "alt": "Morphkit logo"
+      },
+      "resources": [
+	      {
+			"title": "Software citation",
+			"url": "https://doi.org/10.5281/zenodo.15920833",
+			"type": "DOI"},
+		  {
+			"title": "Software description",
+			"url": "https://www.academia.edu/165256121/Morphkit_v1_0_0_Morpheus_Python_Integration_Toolkit_for_Ancient_Greek",
+			"type": "Paper · Academia"
+			}
+	  ]
+    },
+    {
+      "id": "BHSaddons",
+      "title": "BHSaddons",
+      "summary": "Additional BHSA Text-Fabric features for selecting Torah reading portions, including parashot, aliyot, and maftir annotations.",
+      "category": "Datasets",
+      "status": "active",
+      "tags": [
+        "Text-Fabric",
+        "Biblical Hebrew",
+        "Torah",
+        "Parashot"
+      ],
+      "featured": false,
+      "url": "https://github.com/tonyjurg/BHSaddons",
+      "repository": "https://github.com/tonyjurg/BHSaddons",
+      "logo": {
+        "src": "",
+        "alt": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "John-punctuation-browser",
+      "title": "John punctuation browser",
+      "summary": "Compare alternative punctuation in the Greek Gospel of John. Notebooks align parallel Greek texts and generate a browser showing punctuation and textual differences.",
+      "category": "Textual research",
+      "status": "available",
+      "tags": [
+        "Ancient Greek",
+        "New Testament",
+        "Punctuation",
+        "Jupyter"
+      ],
+      "featured": false,
+      "url": "https://tonyjurg.github.io/John-punctuation-browser/",
+      "repository": "https://github.com/tonyjurg/John-punctuation-browser",
+      "logo": {
+        "src": "",
+        "alt": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "Nestle1904GBI",
+      "title": "Nestle1904GBI",
+      "summary": "An earlier Text-Fabric implementation of the Nestle 1904 Greek New Testament based on GBI XML nodes. Archived and superseded by the enhanced N1904-TF dataset.",
+      "category": "Datasets",
+      "status": "archived",
+      "tags": [
+        "Text-Fabric",
+        "Ancient Greek",
+        "New Testament",
+        "Syntax"
+      ],
+      "featured": false,
+      "url": "https://tonyjurg.github.io/Nestle1904GBI/",
+      "repository": "https://github.com/tonyjurg/Nestle1904GBI",
+      "logo": {
+        "src": "",
+        "alt": ""
+      },
+      "resources": [
+        {
+          "title": "Successor: N1904-TF",
+          "url": "https://centerblc.github.io/N1904/",
+          "type": "Dataset"
+        }
+      ]
+    },
+    {
+      "id": "Sandborg-Petersen-decoder",
+      "title": "Sandborg-Petersen Morphology Decoder",
+      "summary": "Decode Sandborg-Petersen morphological tags for Koine Greek and New Testament texts using an interactive browser tool or an installable Python package.",
+      "category": "Research tools",
+      "status": "active",
+      "tags": [
+        "Ancient Greek",
+        "Morphology",
+        "Python",
+        "JavaScript"
+      ],
+      "featured": false,
+      "url": "https://tonyjurg.github.io/Sandborg-Petersen-decoder/",
+      "repository": "https://github.com/tonyjurg/Sandborg-Petersen-decoder",
+      "logo": {
+        "src": "https://raw.githubusercontent.com/tonyjurg/Sandborg-Petersen-decoder/refs/heads/main/images/logo.png",
+        "alt": "Sandborg-Petersen Morphology Decoder logo"
+      },
+      "resources": [
+        {
+          "title": "Decoder for the Sandborg-Petersen Morphology",
+          "url": "https://www.academia.edu/126540053/Decoder_for_the_Sandborg_Petersen_Morphology",
+          "type": "Paper · Academia"
+        }
+      ]
+    },
+    {
+      "id": "Perseus-mcp",
+      "title": "Perseus MCP",
+      "summary": "Connect AI assistants to the Perseus Digital Library through a local MCP server for Greek and Latin text discovery, passage retrieval, CTS navigation, and Scaife search.",
+      "category": "Research tools",
+      "status": "active",
+      "tags": [
+        "MCP",
+        "AI",
+        "Ancient Greek",
+        "Latin",
+        "Perseus",
+        "Python"
+      ],
+      "featured": true,
+      "url": "https://tonyjurg.github.io/Perseus-mcp/",
+      "repository": "https://github.com/tonyjurg/Perseus-mcp",
+      "logo": {
+        "src": "https://raw.githubusercontent.com/tonyjurg/Perseus-mcp/refs/heads/main/docs/assets/img/perseus-mcp-logo_small.png",
+        "alt": "Logo Perseus-MCP"
+      },
+      "resources": [
+        {
+          "title": "Software citation",
+          "url": "https://doi.org/10.5281/zenodo.20708960",
+          "type": "DOI"
+        }
+      ]
+    },
+    {
+      "id": "TF_Knowledge_Graph",
+      "title": "Text-Fabric Knowledge Graph",
+      "summary": "Jupyter notebooks that turn a Text-Fabric dataset into a JSON knowledge graph and an interactive Cytoscape visualization, demonstrated with the N1904 dataset.",
+      "category": "Research tools",
+      "status": "active",
+      "tags": [
+        "Text-Fabric",
+        "Knowledge graphs",
+        "Jupyter",
+        "Visualization",
+        "JSON"
+      ],
+      "featured": false,
+      "url": "https://tonyjurg.github.io/TF_Knowledge_Graph/n1904_graph_contextmenu.html",
+      "repository": "https://github.com/tonyjurg/TF_Knowledge_Graph",
+      "logo": {
+        "src": "",
+        "alt": ""
+      },
+      "resources": [
+        {
+          "title": "N1904 knowledge graph data",
+          "url": "https://tonyjurg.github.io/TF_Knowledge_Graph/n1904_knowledge_graph.json",
+          "type": "JSON dataset"
+        }
+      ]
+    },
+    {
+      "id": "TF_function_replace_demo",
+      "title": "Text-Fabric Function Replacement Demo",
+      "summary": "Two notebooks demonstrate Python function replacement and dataset-specific Text-Fabric API extensions, showing how customized methods stay bound to their own dataset instance.",
+      "category": "Research tools",
+      "status": "active",
+      "tags": [
+        "Text-Fabric",
+        "Python",
+        "Jupyter",
+        "API customization"
+      ],
+      "featured": false,
+      "url": "",
+      "repository": "https://github.com/tonyjurg/TF_function_replace_demo",
+      "logo": {
+        "src": "",
+        "alt": ""
+      },
+      "resources": [
+        {
+          "title": "Function replacement exploration",
+          "url": "https://github.com/tonyjurg/TF_function_replace_demo/blob/main/FunctionReplacementDemo.ipynb",
+          "type": "Notebook"
+        },
+        {
+          "title": "Dataset-specific API replacement demo",
+          "url": "https://github.com/tonyjurg/TF_function_replace_demo/blob/main/test_two_TF_datasets.ipynb",
+          "type": "Notebook"
+        }
+      ]
+    }
+  ]
+}
