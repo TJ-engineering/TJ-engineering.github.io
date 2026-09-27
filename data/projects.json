@@ -7,6 +7,33 @@
   },
   "projects": [
     {
+      "id": "N1904-TF",
+      "title": "Nestle 1904 Text-Fabric dataset",
+	  "summary": "A richly annotated version of the Nestle 1904 Greek New Testament as a Text-Fabric dataset (created in conjuction with Andrews University and Vrije Universiteit Amsterdam).",
+      "category": "Datasets",
+      "status": "active",
+      "tags": [
+        "Text-Fabric",
+        "Python",
+        "Jupyter",
+        "Documentation"
+      ],
+      "featured": true,
+      "url": "https://centerblc.github.io/N1904/",
+      "repository": "https://github.com/CenterBLC/N1904",
+      "logo": {
+        "src": "https://centerblc.github.io/N1904/assets/images/N1904_TextFabric_logo_small.png",
+        "alt": "N1904-TF logo"
+      },
+      "resources": [
+        {
+          "title": "Presentation SBL-International 2024 - academia",
+          "url": "https://www.academia.edu/122508871/2024_SBL_International_Conference_Amsterdam_The_Greek_New_Testament_Text_Fabric_Conversion_Project_Navigating_the_Challenges_in_Creating_a_Text_Fabric_Dataset_",
+          "type": "PDF"
+        }
+      ]
+    },
+	    {
       "id": "Doc4TF",
       "title": "Doc4TF",
       "summary": "A Jupyter Notebook tool that generates linked Text-Fabric feature documentation from an existing dataset, with Markdown and HTML output.",
