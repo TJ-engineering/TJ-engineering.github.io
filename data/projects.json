@@ -136,11 +136,11 @@
         "Parashot"
       ],
       "featured": false,
-      "url": "https://github.com/tonyjurg/BHSaddons",
+      "url": "https://tonyjurg.github.io/BHSaddons/",
       "repository": "https://github.com/tonyjurg/BHSaddons",
       "logo": {
-        "src": "",
-        "alt": ""
+        "src": "https://raw.githubusercontent.com/tonyjurg/BHSaddons/main/docs/assets/logo.svg",
+        "alt": "BHSaddons logo"
       },
       "resources": []
     },
