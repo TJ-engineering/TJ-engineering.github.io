@@ -18,16 +18,33 @@ function card(project) {
   const top = element('div', 'card-top');
   top.append(element('span', '', project.category), element('span', '', `${project.featured ? 'Featured · ' : ''}${project.status}`));
   node.append(top);
+  const projectUrl = safeUrl(project.url);
   const logoUrl = safeUrl(project.logo?.src);
   if (logoUrl) {
     const logo = element('img', 'project-logo');
     logo.alt = project.logo.alt || `${project.title} logo`;
     logo.loading = 'lazy';
-    logo.addEventListener('error', () => logo.remove());
+    logo.addEventListener('error', () => (logo.parentElement.classList.contains('project-logo-link') ? logo.parentElement : logo).remove());
     logo.src = logoUrl;
-    node.append(logo);
+    if (projectUrl) {
+      const link = element('a', 'project-logo-link');
+      link.href = projectUrl;
+      link.setAttribute('aria-label', `View ${project.title} project`);
+      link.append(logo);
+      node.append(link);
+    } else {
+      node.append(logo);
+    }
   }
-  node.append(element('h3', '', project.title), element('p', '', project.summary));
+  const title = element('h3');
+  if (projectUrl) {
+    const link = element('a', 'project-title-link', project.title);
+    link.href = projectUrl;
+    title.append(link);
+  } else {
+    title.textContent = project.title;
+  }
+  node.append(title, element('p', '', project.summary));
   const tags = element('div', 'tags');
   project.tags.forEach(tag => tags.append(element('span', 'tag', tag)));
   node.append(tags);
