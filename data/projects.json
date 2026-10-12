@@ -144,6 +144,28 @@
       },
       "resources": []
     },
+	{
+      "id": "parasha-gematria-browser",
+      "title": "Parasha Gematria Browser",
+      "summary": "Read a Torah portion, select a Hebrew word, and explore passages whose words share its numerical gematria value.",
+      "category": "Textual research",
+      "status": "active",
+      "tags": [
+        "Text-Fabric",
+        "Biblical Hebrew",
+        "Torah",
+        "Parashot",
+		"Gematria"
+      ],
+      "featured": false,
+      "url": "https://tonyjurg.github.io/parasha-gematria-browser/",
+      "repository": "https://github.com/tonyjurg/parasha-gematria-browser",
+      "logo": {
+        "src": "https://raw.githubusercontent.com/tonyjurg/parasha-gematria-browser/main/site/assets/logo-browser.svg",
+        "alt": "Gematria Browser logo"
+      },
+      "resources": []
+    },
     {
       "id": "John-punctuation-browser",
       "title": "John punctuation browser",
