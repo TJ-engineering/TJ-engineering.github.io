@@ -29,7 +29,7 @@
         {
           "title": "Presentation SBL-International 2024 - academia",
           "url": "https://www.academia.edu/122508871/2024_SBL_International_Conference_Amsterdam_The_Greek_New_Testament_Text_Fabric_Conversion_Project_Navigating_the_Challenges_in_Creating_a_Text_Fabric_Dataset_",
-          "type": "PDF"
+          "type": "Paper · Academia"
         }
       ]
     },
@@ -267,6 +267,11 @@
           "title": "Software citation",
           "url": "https://doi.org/10.5281/zenodo.20708960",
           "type": "DOI"
+        },
+		{
+          "title": "Descriptive project paper",
+          "url": "https://www.academia.edu/179147771/Perseus_MCP_A_Bridge_between_Conversational_AI_and_the_Textual_Infrastructure_of_Classical_Studies",
+          "type": "Paper · Academia"
         }
       ]
     },
