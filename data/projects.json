@@ -27,9 +27,14 @@
       },
       "resources": [
         {
-          "title": "Presentation SBL-International 2024 - academia",
+          "title": "Presentation SBL-International 2024",
           "url": "https://www.academia.edu/122508871/2024_SBL_International_Conference_Amsterdam_The_Greek_New_Testament_Text_Fabric_Conversion_Project_Navigating_the_Challenges_in_Creating_a_Text_Fabric_Dataset_",
           "type": "Paper · Academia"
+        },        
+		{
+          "title": "Coding the Greek New Testament in the Text-Fabric Open-Source Environment",
+          "url": "https://digitalcommons.andrews.edu/cgi/viewcontent.cgi?article=4307&context=auss",
+          "type": "Journal Paper · AUSS"
         }
       ]
     },
