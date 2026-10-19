@@ -35,6 +35,11 @@
           "title": "Coding the Greek New Testament in the Text-Fabric Open-Source Environment",
           "url": "https://digitalcommons.andrews.edu/cgi/viewcontent.cgi?article=4307&context=auss",
           "type": "Journal Paper · AUSS"
+        },
+		{
+          "title": "Dataset citation",
+          "url": "https://doi.org/10.5281/zenodo.13117911",
+          "type": "DOI · Zenodo"
         }
       ]
     },
@@ -61,7 +66,12 @@
         {
           "title": "Doc4TF project description",
           "url": "https://github.com/tonyjurg/Doc4TF/blob/main/Doc4TF_Automatic_Generation_of_Text_Fabric_Documentation.pdf",
-          "type": "PDF"
+          "type": "PDF · Github"
+        },
+		{
+          "title": "Software citation",
+          "url": "https://zenodo.org/records/12705876",
+          "type": "DOI · Zenodo"
         }
       ]
     },
@@ -93,7 +103,7 @@
         {
           "title": "Dataset citation",
           "url": "https://doi.org/10.5281/zenodo.17091708",
-          "type": "DOI"
+          "type": "DOI · Zenodo"
         }
       ]
     },
@@ -120,7 +130,7 @@
 	      {
 			"title": "Software citation",
 			"url": "https://doi.org/10.5281/zenodo.15920833",
-			"type": "DOI"},
+			"type": "DOI · Zenodo"},
 		  {
 			"title": "Software description",
 			"url": "https://www.academia.edu/165256121/Morphkit_v1_0_0_Morpheus_Python_Integration_Toolkit_for_Ancient_Greek",
@@ -268,15 +278,15 @@
         "alt": "Logo Perseus-MCP"
       },
       "resources": [
-        {
-          "title": "Software citation",
-          "url": "https://doi.org/10.5281/zenodo.20708960",
-          "type": "DOI"
-        },
 		{
           "title": "Descriptive project paper",
           "url": "https://www.academia.edu/179147771/Perseus_MCP_A_Bridge_between_Conversational_AI_and_the_Textual_Infrastructure_of_Classical_Studies",
           "type": "Paper · Academia"
+        },
+        {
+          "title": "Software citation",
+          "url": "https://doi.org/10.5281/zenodo.20708960",
+          "type": "DOI · Zenodo"
         }
       ]
     },
