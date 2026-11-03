@@ -182,6 +182,35 @@
       "resources": []
     },
     {
+      "id": "Hakhel",
+      "title": "Hakhel",
+      "summary": "Notebook-based research into the inclusion of children in the Hakhel command (Deut 31:10–13), combining Hebrew and Greek textual analysis with Philo and Jewish reception history.",
+      "category": "Textual research",
+      "status": "active",
+      "tags": [
+        "Biblical Hebrew",
+        "Ancient Greek",
+        "Text-Fabric",
+        "Philo",
+        "Reception history",
+        "Jupyter"
+      ],
+      "featured": false,
+      "url": "https://tonyjurg.github.io/Hakhel/",
+      "repository": "https://github.com/tonyjurg/Hakhel",
+      "logo": {
+        "src": "https://raw.githubusercontent.com/tonyjurg/Hakhel/main/images/hakhel-icon.png",
+        "alt": "Hakhel logo"
+      },
+      "resources": [
+        {
+          "title": "Project citation",
+          "url": "https://doi.org/10.5281/zenodo.23724677",
+          "type": "DOI · Zenodo"
+        }
+      ]
+    },
+    {
       "id": "John-punctuation-browser",
       "title": "John punctuation browser",
       "summary": "Compare alternative punctuation in the Greek Gospel of John. Notebooks align parallel Greek texts and generate a browser showing punctuation and textual differences.",
