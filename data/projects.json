@@ -179,7 +179,13 @@
         "src": "https://raw.githubusercontent.com/tonyjurg/parasha-gematria-browser/main/site/assets/logo-browser.svg",
         "alt": "Gematria Browser logo"
       },
-      "resources": []
+      "resources": [
+		{
+          "title": "End user oriented paper",
+          "url": "https://www.academia.edu/180297353/Parasha_Gematria_Browser",
+          "type": "Paper · Academia"
+        } 
+	  ]
     },
     {
       "id": "Hakhel",
