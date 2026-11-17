@@ -43,7 +43,7 @@
         }
       ]
     },
-	    {
+	{
       "id": "Doc4TF",
       "title": "Doc4TF",
       "summary": "A Jupyter Notebook tool that generates linked Text-Fabric feature documentation from an existing dataset, with Markdown and HTML output.",
@@ -75,6 +75,27 @@
         }
       ]
     },
+    {
+      "id": "Doc4CF",
+      "title": "Doc4CF",
+      "summary": "Taking Doc4TF into the agentic age. Creating Text-Fabric documentation using Context-Fabric and your LLM of choice.",
+      "category": "Research tools",
+      "status": "active",
+      "tags": [
+        "Text-Fabric",
+        "Python",
+        "Documentation"
+      ],
+      "featured": true,
+      "url": "https://tonyjurg.github.io/Doc4CF/",
+      "repository": "https://github.com/tonyjurg/Doc4CF",
+      "logo": {
+        "src": "https://raw.githubusercontent.com/tonyjurg/Doc4TF/main/project-assets/doc4cf-logo.svg",
+        "alt": "Doc4CF logo"
+      }
+    },	  
+	  
+	  
     {
       "id": "N1904addons",
       "title": "N1904addons",
